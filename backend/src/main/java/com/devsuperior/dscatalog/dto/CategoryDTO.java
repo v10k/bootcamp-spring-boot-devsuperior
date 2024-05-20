@@ -8,8 +8,7 @@ import jakarta.persistence.Id;
 import java.io.Serializable;
 
 public class CategoryDTO implements Serializable {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Long id;
     private String name;
 
